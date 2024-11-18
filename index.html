@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS:GO Fan Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Counter-Strike: Global Offensive</h1>
+        <nav>
+            <a href="#login">Login</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#video">Trailer</a>
+            <a href="#download">Baixe Agora</a>
+        </nav>
+    </header>
+
+    <!-- Tela de Login -->
+    <section id="login" class="section">
+        <h2>Login</h2>
+        <p>Digite o nome da sua conta Steam para acessar o site.</p>
+        <form id="login-form">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+    
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+        <h2>Sobre CS:GO</h2>
+        <p>
+            Counter-Strike: Global Offensive é um dos jogos de tiro mais populares do mundo. 
+            Lançado pela Valve, o jogo coloca equipes de terroristas contra contraterroristas em missões estratégicas e competitivas. 
+            Participe de torneios e suba no ranking global!
+        </p>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="./assets/img/acao.webp" alt="Ação no CS:GO">
+            <img src="./assets/img/equipe.jpg" alt="Equipe se preparando para a missão">
+            <img src="./assets/img/dust2.jpg" alt="Mapa Dust II no CS:GO">
+        </div>
+    </section>
+
+    <!-- Trailer -->
+    <section id="video" class="section">
+        <h2>Trailer Oficial</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/edYCtaNueQY?si=Aaw_Yw8o0ySV1dGN&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="section">
+        <h2>Baixe CS:GO</h2>
+        <p>Jogue gratuitamente no Steam e nas plataformas suportadas!</p>
+        <div class="download-links">
+            <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank" class="button">Baixar no Steam</a>
+            <a href="https://www.xbox.com" target="_blank" class="button">Xbox</a>
+            <a href="https://www.playstation.com" target="_blank" class="button">PlayStation</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 CS:GO Fan Site. Este é um site não oficial.</p>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
